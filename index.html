@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Занятость">
+    <meta name="keywords" content="верстка сайтов">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="76x76" href="images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="images/favicons/site.webmanifest">
+    <link rel="mask-icon" href="images/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Open+Sans:wght@300;700&family=Raleway:wght@300;600;700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-
+            fnmOCqbTI1WIj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG95r" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/slick.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Занятость</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Sprite -->
+    <svg style="display: none;">
+        <symbol id="facebook" viewBox="0 0 96.227 96.227">
+            <g>
+                <path d="M73.099,15.973l-9.058,0.004c-7.102,0-8.477,3.375-8.477,8.328v10.921h16.938l-0.006,17.106H55.564v43.895H37.897V52.332
+                    h-14.77V35.226h14.77V22.612C37.897,7.972,46.84,0,59.9,0L73.1,0.021L73.099,15.973L73.099,15.973z" />
+            </g>
+        </symbol>
+
+        <symbol id="twitter" viewBox="0 0 512 512">
+            <g>
+                <path d="M512,97.248c-19.04,8.352-39.328,13.888-60.48,16.576c21.76-12.992,38.368-33.408,46.176-58.016
+                    c-20.288,12.096-42.688,20.64-66.56,25.408C411.872,60.704,384.416,48,354.464,48c-58.112,0-104.896,47.168-104.896,104.992
+                    c0,8.32,0.704,16.32,2.432,23.936c-87.264-4.256-164.48-46.08-216.352-109.792c-9.056,15.712-14.368,33.696-14.368,53.056
+                    c0,36.352,18.72,68.576,46.624,87.232c-16.864-0.32-33.408-5.216-47.424-12.928c0,0.32,0,0.736,0,1.152
+                    c0,51.008,36.384,93.376,84.096,103.136c-8.544,2.336-17.856,3.456-27.52,3.456c-6.72,0-13.504-0.384-19.872-1.792
+                    c13.6,41.568,52.192,72.128,98.08,73.12c-35.712,27.936-81.056,44.768-130.144,44.768c-8.608,0-16.864-0.384-25.12-1.44
+                    C46.496,446.88,101.6,464,161.024,464c193.152,0,298.752-160,298.752-298.688c0-4.64-0.16-9.12-0.384-13.568
+                    C480.224,136.96,497.728,118.496,512,97.248z" />
+            </g>
+        </symbol>
+
+        <symbol id="linked" viewBox="0 0 512 512">
+            <g>
+                <path
+                    d="M426.368,164.128c-1.216-0.384-2.368-0.8-3.648-1.152c-1.536-0.352-3.072-0.64-4.64-0.896
+                    c-6.08-1.216-12.736-2.08-20.544-2.08c-66.752,0-109.088,48.544-123.04,67.296V160H160v352h114.496V320
+                    c0,0,86.528-120.512,123.04-32c0,79.008,0,224,0,224H512V274.464C512,221.28,475.552,176.96,426.368,164.128z" />
+            </g>
+        </symbol>
+
+    </svg>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+
+            <div class="header__inner">
+                <div class="header__logo">
+                    <a href="#">занятость</a>
+                </div>
+                <nav class="nav" id="nav">
+                    <a class="nav__link" href="about.html" data-scroll="#features">о нас</a>
+                    <a class="nav__link" href="peoples.html" data-scroll="#works">Гражданам</a>
+                    <a class="nav__link" href="workers.html" data-scroll="#team">Работадателям</a>
+                    <a class="nav__link" href="bazar.html" data-scroll="#team">РЫнок труда</a>
+                    <a class="nav__link" href="news.html" data-scroll="#reviews">Новости</a>
+                    <a class="nav__link" href="cont.html" data-scroll="#down">Контакты</a>
+                </nav>
+
+                <button class="burger" type="button" id="navToggle">
+                    <span class="burger__item">Menu</span>
+                </button>
+
+            </div>
+
+        </div>
+    </header>
+
+
+    <!-- Intro -->
+    <div class="intro" id="intro">
+        <div class="container">
+            <div class="intro__inner">
+                <h1 class="intro__title">Министерство труда и социального развития
+                </h1>
+                <h2 class="intro__suptitle">
+                    Кыргызской Республики
+                </h2>
+                <a class="btn btn--red" href="https://youtu.be/nCK9Tk6OItI?list=PLe3aTok8N1TEXfnrM8T_G-hOjR-icLHh6">
+                    Узнайте Больше
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features -->
+    <div class="container" id="features">
+        <div class="features">
+
+            <div class="features__item">
+                <img class="features__icon" src="images/features/features-1.png" alt="">
+                <h4 class="features__title"> <a href="okny/koncul.html">Консультации специалистов</a></h4>
+                <div class="features__text">Все о занятости населения</div>
+            </div>
+
+            <div class="features__item">
+                <img class="features__icon" src="images/features/features-2.png" alt="">
+                <h4 class="features__title"> <a href="citizens/bank.html">Банк вакансий</a></h4>
+                <div class="features__text">Работа для вас</div>
+            </div>
+
+            <div class="features__item">
+                <img class="features__icon" src="images/features/features-3.png" alt="">
+                <h4 class="features__title"> <a href="okny/page.html">Оплачиваемые Общественные работы</a></h4>
+                <div class="features__text">Ваша временная занятость</div>
+            </div>
+
+            <div class="features__item">
+                <img class="features__icon" src="images/features/features-4.png" alt="">
+                <h4 class="features__title"> <a href="okny/prof.html">Профессиональная ориентация</a></h4>
+                <div class="features__text">Помощь в выборе профессии</div>
+            </div>
+
+            <div class="features__item">
+                <img class="features__icon" src="images/features/features-5.png" alt="">
+                <h4 class="features__title"> <a href="okny/reads.html">Профессинальное обучение</a> </h4>
+                <div class="features__text">Возможность приобрести востребованную профессию</div>
+            </div>
+
+            <div class="features__item">
+                <img class="features__icon" src="images/features/features-6.png" alt="">
+                <h4 class="features__title"><a href="okny/posobie.html">Пособие по безработице</a> </h4>
+                <div class="features__text">Минимальная гарантированная поддержка безработного</div>
+            </div>
+
+        </div> <!-- .features -->
+    </div> <!-- .contanier -->
+
+
+
+    <!-- Works -->
+    <div class="works" id="works">
+
+        <div class="works__item">
+            <img class="works__photo" src="images/works/work-1.jpg" alt="">
+            <div class="works__content">
+                <div class="works__title">Тип работы</div>
+                <div class="works__text">дизайн пользовательского интерфейса
+                </div>
+            </div>
+        </div>
+
+        <div class="works__item">
+            <img class="works__photo" src="images/works/work-2.jpg" alt="">
+            <div class="works__content">
+                <div class="works__title">Тип работы</div>
+                <div class="works__text">дизайн интерьера
+                </div>
+            </div>
+        </div>
+
+        <div class="works__item">
+            <img class="works__photo" src="images/works/work-3.jpg" alt="">
+            <div class="works__content">
+                <div class="works__title">Тип работы</div>
+                <div class="works__text">фотограф интерфейса
+                </div>
+            </div>
+        </div>
+
+
+        <div class="works__item">
+            <img class="works__photo" src="images/works/work-4.jpg" alt="">
+            <div class="works__content">
+                <div class="works__title">Тип работы</div>
+                <div class="works__text">Сварщик
+                </div>
+            </div>
+        </div>
+
+
+        <div class="works__item">
+            <img class="works__photo" src="images/works/work-5.jpg" alt="">
+            <div class="works__content">
+                <div class="works__title">Тип работы</div>
+                <div class="works__text">дизайн пользовательского интерфейса
+                </div>
+            </div>
+        </div>
+
+        <div class="works__item">
+            <img class="works__photo" src="images/works/work-6.jpg" alt="">
+            <div class="works__content">
+                <div class="works__title">Тип работы</div>
+                <div class="works__text">плотник
+                </div>
+            </div>
+        </div>
+
+        <div class="works__item">
+            <img class="works__photo" src="images/works/work-7.jpg" alt="">
+            <div class="works__content">
+                <div class="works__title">Тип работы</div>
+                <div class="works__text">фермер
+                </div>
+            </div>
+        </div>
+
+
+        <div class="works__item">
+            <img class="works__photo" src="images/works/work-8.jpg" alt="">
+            <div class="works__content">
+                <div class="works__title">Тип работы</div>
+                <div class="works__text">повор
+                </div>
+            </div>
+        </div>
+
+    </div> <!-- .works -->
+
+
+
+    <!-- Team -->
+    <div class="team" id="team">
+        <div class="container">
+            <div class="team__inner">
+
+                <div class="team__item">
+                    <img class="team__photo" src="images/team/team-1.jpg" alt="">
+                    <div class="team__name">Рут Вудс </div>
+                    <div class="team__prof">ОСНОВАТЕЛЬ, ГЕНЕРАЛЬНЫЙ ДИРЕКТОР</div>
+                    <div class="team__text">
+                        <p>
+                            Белок, Девелопмент и промышленные предприятия,
+                            макросреда для повышения квалификации,
+                            чтобы заквасить массу justo sit amet risus.
+                        </p>
+                        <p>
+                            Белок, Девелопмент и промышленные предприятия,
+                            макросреда для повышения квалификации,
+                            чтобы заквасить массу justo sit amet risus.
+                        </p>
+                    </div>
+                    <div class="social">
+
+
+                        <a target="_blank" class="social__item" href="#">
+                            <svg class="social__icon">
+                                <use xlink:href="#facebook"></use>
+                            </svg>
+                        </a>
+
+                        <a target="_blank" class="social__item" href="#">
+                            <svg class="social__icon">
+                                <use xlink:href="#twitter"></use>
+                            </svg>
+                        </a>
+
+                        <a target="_blank" class="social__item" href="#">
+                            <svg class="social__icon">
+                                <use xlink:href="#linked"></use>
+                            </svg>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div class="team__item">
+                    <img class="team__photo" src="images/team/team-2.jpg" alt="">
+                    <div class="team__name">Тимоти Рид</div>
+                    <div class="team__prof">Соучредитель, Разработчик</div>
+                    <div class="team__text">
+                        <p>
+                            Белок, Девелопмент и промышленные предприятия,
+                            макросреда для повышения квалификации,
+                            чтобы заквасить массу justo sit amet risus.
+                        </p>
+                        <p>
+                            Белок, Девелопмент и промышленные предприятия,
+                            макросреда для повышения квалификации,
+                            чтобы заквасить массу justo sit amet risus.
+                        </p>
+                    </div>
+                    <div class="social">
+
+                        <a class="social__item" href="#" target="_blank">
+                            <svg class="social__icon">
+                                <use xlink:href="#facebook"></use>
+                            </svg>
+                        </a>
+
+                        <a class="social__item" href="#" target="_blank">
+                            <svg class="social__icon">
+                                <use xlink:href="#twitter"></use>
+                            </svg>
+                        </a>
+
+                        <a class="social__item" href="#" target="_blank">
+                            <svg class="social__icon">
+                                <use xlink:href="#linked"></use>
+                            </svg>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div class="team__item">
+                    <img class="team__photo" src="images/team/team-3.jpg" alt="">
+                    <div class="team__name">Виктория Вальдес</div>
+                    <div class="team__prof">Конструктор интерфейса </div>
+                    <div class="team__text">
+                        <p>
+                            Белок, Девелопмент и промышленные предприятия,
+                            макросреда для повышения квалификации,
+                            чтобы заквасить массу justo sit amet risus.
+                        </p>
+                        <p>
+                            Белок, Девелопмент и промышленные предприятия,
+                            макросреда для повышения квалификации,
+                            чтобы заквасить массу justo sit amet risus.
+                        </p>
+                    </div>
+                    <div class="social">
+
+                        <a class="social__item" href="#" target="_blank">
+                            <svg class="social__icon">
+                                <use xlink:href="#facebook"></use>
+                            </svg>
+                        </a>
+
+                        <a class="social__item" href="#" target="_blank">
+                            <svg class="social__icon">
+                                <use xlink:href="#twitter"></use>
+                            </svg>
+                        </a>
+
+                        <a class="social__item" href="#" target="_blank">
+                            <svg class="social__icon">
+                                <use xlink:href="#linked"></use>
+                            </svg>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div class="team__item">
+                    <img class="team__photo" src="images/team/team-4.jpg" alt="">
+                    <div class="team__name">Беверли Мало</div>
+                    <div class="team__prof">Специалист По Данным</div>
+                    <div class="team__text">
+                        <p>
+                            Белок, Девелопмент и промышленные предприятия,
+                            макросреда для повышения квалификации,
+                            чтобы заквасить массу justo sit amet risus.
+                        </p>
+                        <p>
+                            Белок, Девелопмент и промышленные предприятия,
+                            макросреда для повышения квалификации,
+                            чтобы заквасить массу justo sit amet risus.
+                        </p>
+                    </div>
+                    <div class="social">
+
+                        <a class="social__item" href="#" target="_blank">
+                            <svg class="social__icon">
+                                <use xlink:href="#facebook"></use>
+                            </svg>
+                        </a>
+
+                        <a class="social__item" href="#" target="_blank">
+                            <svg class="social__icon">
+                                <use xlink:href="#twitter"></use>
+                            </svg>
+                        </a>
+
+                        <a class="social__item" href="#" target="_blank">
+                            <svg class="social__icon">
+                                <use xlink:href="#linked"></use>
+                            </svg>
+                        </a>
+
+                    </div>
+                </div>
+
+            </div> <!-- .team__inner -->
+        </div> <!-- .container -->
+    </div> <!-- .team -->
+
+
+    <!-- Testimonials -->
+    <div class="reviews" id="reviews">
+        <div class="container">
+
+            <div class="reviews__slider" id="reviewsSlider">
+
+                <div class="slick-item">
+                    <div class="reviews__item">
+                        <div class="reviews__photo">
+                            <img class="reviews__img" src="images/reviews/reviews-1.jpg" alt="">
+                        </div>
+                        <div class="reviews__content">
+                            <div class="reviews__text">
+                                Ищите работу и персонал с нами.
+                            </div>
+                            <div class="reviews__author">
+                                Мы поможем с работой
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slick-item">
+                    <div class="reviews__item">
+                        <div class="reviews__photo">
+                            <img class="reviews__img" src="images/reviews/reviews-2.jpg" alt="">
+                        </div>
+                        <div class="reviews__content">
+                            <div class="reviews__text">
+                                Лучшие специалисты для ведущих компаний!
+                            </div>
+                            <div class="reviews__author">
+                                Мы поможем с работой
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slick-item">
+                    <div class="reviews__item">
+                        <div class="reviews__photo">
+                            <img class="reviews__img" src="images/reviews/reviews-3.jpg" alt="">
+                        </div>
+                        <div class="reviews__content">
+                            <div class="reviews__text">
+                                Пора становиться профессионалом
+                            </div>
+                            <div class="reviews__author">
+                                Мы поможем с работой
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slick-item">
+                    <div class="reviews__item">
+                        <div class="reviews__photo">
+                            <img class="reviews__img" src="images/reviews/reviews-4.jpg" alt="">
+                        </div>
+                        <div class="reviews__content">
+                            <div class="reviews__text">
+                                Работодатель – ключевая фигура на рынке труда
+                            </div>
+                            <div class="reviews__author">
+                                Мы поможем с работой
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- Down -->
+    <div class="down" id="down">
+        <div class="container">
+            <h3 class="down__title">
+                Вы готовы начать?
+            </h3>
+            <div class="down__text">
+                <p>
+                    Работодатель – ключевая фигура на рынке труда
+                </p>
+            </div>
+            <a class="btn btn--red btn--long" href="https://youtu.be/nCK9Tk6OItI?list=PLe3aTok8N1TEXfnrM8T_G-hOjR-icLHh6">Узнайте Больше</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+
+            <div class="footer__inner">
+
+                <div class="footer__block">
+                    <h4 class="footer__title">занятость</h4>
+                    <div class="footer__address">
+                        <div> Портал государственный службы занятости </div>
+                        <div> населении Кыргызской Республики </div>
+                    </div>
+                </div>
+
+                <div class="footer__block">
+                    <h4 class="footer__title">Наши контакты</h4>
+                    <div class="footer__address">
+                        <div class="social social--footer">
+
+                            <a class="social__item" href="#" target="_blank">
+                                <svg class="social__icon">
+                                    <use xlink:href="#facebook"></use>
+                                </svg>
+                            </a>
+
+                            <a class="social__item" href="#" target="_blank">
+                                <svg class="social__icon">
+                                    <use xlink:href="#twitter"></use>
+                                </svg>
+                            </a>
+
+                            <a class="social__item" href="#" target="_blank">
+                                <svg class="social__icon">
+                                    <use xlink:href="#linked"></use>
+                                </svg>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer__block">
+                    <h4 class="footer__title">zit</h4>
+                    <div class="footer__text">
+                        <p>
+                            Сайт был разработан при поддержке
+                            Германского общества по международному сотрудничеству (ZIZ)
+                        </p>
+                    </div>
+                </div>
+
+
+            </div> <!-- .footer__inner -->
+
+        </div> <!-- .container -->
+        <div class="copyright">
+            <div class="container">
+                <div class="copyright__text">
+                    <div>
+                        ©2020 Министерство труда и социального развития
+                    </div>
+                    <div> <span>Кыргызской Республики</span> </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+    <!-- Javascript -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

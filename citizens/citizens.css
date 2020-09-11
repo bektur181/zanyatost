@@ -1,0 +1,327 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    background-color: #31344e;
+    color: #fff;
+}
+/* Bank */
+
+.all__inner{
+    margin-top: 130px;
+}
+
+.all__title{
+    max-width: 825px;
+    font-size: 35px;
+}
+
+.bank__subtitle,
+.ser__subtitle{
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.bank__text,
+.ser__subtitle{
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+}
+
+.bank__text a{
+    color: #fff;
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+.bank__text a:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+
+.footer__bank{
+    margin-top: 372px;
+}
+
+.footer__ser{
+    margin-top: 55px;
+
+}
+
+/* Services */
+
+.ser__content{
+    margin-bottom: 20px;
+}
+.ser__text,
+.ser__text2{
+    font-size: 18px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.ser__text2{
+    font-weight: 700;
+}
+
+.ser__subtext{
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.ser__subtext a{
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.9;
+}
+
+.ser__subtext a:hover{
+    opacity: 0.9;
+    text-decoration: underline;
+}
+
+/* Recomen */
+
+.rec__subtitle{
+    font-size: 22px;
+    line-height: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.rec__text{
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #fff;
+    text-align: left;
+}
+
+.rec__list li{
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 30px;
+    text-align-last: left;
+}
+
+/* Okny */
+
+
+.okny__subtitle{
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.okny__text {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #fff;
+    text-align: left;
+}
+
+.okny__list li{
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 30px;
+    text-align-last: left;
+}
+
+.footer__okny{
+    margin-top: 129px;
+}
+
+/* Rabota */
+
+.rab__text{
+    max-width: 500px;
+    margin-bottom: 20px;
+}
+
+.rab__subtext{
+    max-width: 600px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.rab__list{
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 30px;
+    text-align-last: left;
+}
+
+.rab__list li{
+    margin-bottom: 15px;
+}
+
+.rab__list li a{
+    color: #fff;
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+
+.rab__list li a:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+.rab__subtitle{
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.footer__ryan{
+    margin-top: 290px;
+}
+
+/* Person */
+
+.footer__peoples{
+    margin-top: 263px
+}
+
+.person__subtitle {
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.person__text {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 25px;
+}
+
+/* Visit */
+
+.vis__subtitle{
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.vis__list-text{
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.vis__list li{
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 15px;
+
+}
+
+.vis__list ol li{
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.footer__vrt{
+    margin-top: 94px;
+}
+
+/* Prava */
+
+.pr__subtitle{
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.pr__list li{
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.footer__pr{
+    margin-top: 160px;
+}
+
+/* Ryan */
+
+.rayn__subtitle{
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.rayn__text{
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    max-width: 900px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.footer__rayn{
+    margin-top: 100px;
+}
+
+.rayn__list li{
+    list-style: none;    
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    max-width: 900px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+.rayn__list a{
+    color: #fff;
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+.rayn__list a:hover{
+    opacity: 1;
+    text-decoration: underline;
+}
+

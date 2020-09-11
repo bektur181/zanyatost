@@ -1,0 +1,163 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    background-color: #31344e;
+    color: #fff;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+
+p {
+    margin: 0 0 10px;
+}
+/* container */
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* About */
+
+.about__inner,
+.news__inner,
+.peoples__inner{
+    margin: 130px 0 30px;
+}
+
+.about__title,
+.news__title,
+.peoples__title,
+.all__title{
+    font-size: 55px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.about__text{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 30px;
+    letter-spacing: 1;
+    
+}
+
+.about__text a{
+    opacity: 0.9;
+    color: #fff;
+}
+
+.about__text a:hover{
+    opacity: 1;
+}
+
+.about__list li{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 30px;
+    letter-spacing: 1;
+}
+
+.about__suptitle{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* NEws */
+
+.news__content{
+    margin-bottom: 20px;
+}
+
+
+.news__date{
+    font-size: 20px;
+    line-height: 24px;
+
+}
+
+.news__suptitle a{
+    font-size: 16px;
+    line-height: 20px;
+    color: #fff;
+    opacity: 0.9;
+}
+
+.news__suptitle a:hover{
+    opacity: 1;
+}
+
+.news__next{  
+    margin-top: 50px;
+    font-size: 30px;
+    line-height: 34px;
+    font-weight: 700;
+    color: #fff;
+}
+
+/* Peoples */
+
+.peoples__list{
+    font-size: 35px;
+    line-height: 40px;
+    list-style: none;
+    font-weight: 400;
+}
+
+.peoples__list li{
+    margin-bottom: 20px;
+}
+
+.peoples__link{
+    text-decoration: none;
+    color: #fff;
+    font-size: 35px;
+    line-height: 40px;
+}
+
+.peoples__link:hover{
+    text-decoration: underline;
+    color: #fff;
+
+}
+
+.footer{
+    margin-top: 204px;
+}
+
+.footer__about{
+    margin-top: 45px;
+}
+
+/* Workers */
+.footer__wor{
+    margin-top: 160px;
+}
+
+/* Bazar */
+.footer__baz{
+    margin-top: 260px;
+}
+
+
+
+
+
+
+
+
